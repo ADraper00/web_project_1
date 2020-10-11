@@ -8,8 +8,7 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-*
-{
+*{
   margin:0;
   padding:0;
 }
@@ -20,7 +19,8 @@
     max-height: 756px;
     position: relative;
     display: flex;
-  /* parameters for the header section */
+    
+
 }
 .header__logo {
     left: 64px;
@@ -46,15 +46,16 @@
     font-weight: bold;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 .header__subtitle {
     width: 388px;
-    height: 25px;
     position: absolute;
     bottom: 30px;
     left: 64px;
     font-size: 18px;
     font-weight: normal;
+    z-index: 1;
 }
 .header__link{
    text-decoration: none;
@@ -76,7 +77,7 @@
 .two-columns { 
   width: 80%;
   display: flex;
-  justify-content: space-between;.fey
+  justify-content: space-between;
   margin: 0 auto;
 }
 .two-columns_brief{
@@ -85,7 +86,7 @@
   font-size: 18px;
   color: #2f80ed;
   font-weight: normal;
-  margin: 0;
+  margin: 30px;
 }
 .two-columns__main-text{
   min-width: 784px;
@@ -127,6 +128,7 @@
   align-content: space-between;
   min-width: 250px;
   width: 1100px;
+  margin-bottom: 100px;
 }
 .table__cell{
   width:250px;
@@ -184,13 +186,13 @@
 /* including elements with key-value modifiers */
 .kaufman{
   background-color: #1F1F1F;
-  overflow: hidden;
   padding-bottom: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .section-title_theme_dark{
- margin: 90px auto;
+ margin: 90px auto 0;
  text-align: center;
  width: 60%;
  line-height: 1.15;
@@ -200,7 +202,7 @@
 }
 
 .subtitle_theme_dark{
-margin: 20px auto;
+margin: 20px auto 0;
 width:60%;
 color: white;
 line-height: 34px;
@@ -213,7 +215,7 @@ position: relative;
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
-  margin: auto;
+  margin: 0 auto 90px;
   justify-content: space-between;
   align-content: space-between;
   position: relative;
@@ -242,12 +244,14 @@ position: relative;
   width:877px;
   height:877px;
   right:-210px;
+  z-index: 0;
  }
  .footer{
    background-color: #1F1F1F;
    min-height: 350px;
    color: white;
    padding: 60px 0 40px;
+   overflow: hidden;
  }
 .footer__column{
   min-height: 252px
@@ -256,7 +260,7 @@ position: relative;
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 60px auto
+  margin: 60px auto 0;
   }
  .footer__column_content_copyright{
   flex-basis: 711px;
@@ -272,9 +276,9 @@ position: relative;
   font-weight: normal;
   margin-top: 18px;
   margin-bottom: 18px;
-  position: absolute;
   color: #4f4f4f;
   bottom: 0;
+  position: absolute;
  }
  .footer__column-heading {
    line-height: 45px;
