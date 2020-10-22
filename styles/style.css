@@ -188,7 +188,6 @@
   overflow: hidden;
   margin-bottom: -20px;
 }
-
 .section-title_theme_dark{
  margin: 90px auto 0;
  text-align: center;
@@ -198,7 +197,6 @@
  font-weight: bold;
  color: white;
 }
-
 .subtitle_theme_dark{
 margin: 20px auto 0;
 width:60%;
@@ -234,8 +232,8 @@ position: relative;
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0;
-
-}.kaufman__triangle{
+}
+.kaufman__triangle{
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -279,7 +277,7 @@ position: relative;
   bottom: 0;
   position: absolute;
  }
- .footer__column-heading {
+ .footer__column-heading{
    line-height: 45px;
    font-size: 18px;
    font-weight: bold;
