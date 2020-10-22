@@ -8,7 +8,6 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
 .header {
   height: 100vh;
     background-color: #f2f2f2;
@@ -16,8 +15,6 @@
     max-height: 756px;
     position: relative;
     display: flex;
-
-
 }
 .logo_place_header {
     left: 64px;
@@ -131,7 +128,6 @@
   width:250px;
   margin-top: 60px;
   }
-
 .table__heading{
   line-height:1.15px;
   font-size: 24px;
@@ -251,7 +247,7 @@ position: relative;
    overflow: hidden;
  }
 .footer__column{
-  min-height: 252px
+  min-height: 252px;
 }
  .footer__columns{
   display: flex;
@@ -303,7 +299,4 @@ position: relative;
    .footer__link{
     text-decoration: none;
     color: #4f4f4f;
-       }
-  .footer__social-icon{
-    margin: 0;
-  }
+ }
