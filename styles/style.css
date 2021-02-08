@@ -9,7 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 .header {
-  height: 100vh;
+    height: 100vh;
     background-color: #f2f2f2;
     min-height: 600px;
     max-height: 756px;
@@ -65,17 +65,21 @@
     top: 64px;
     right: 0px;
 }
-.description {
+.content {
+  display: block;
+
+}
+.description{
   margin-top: 100px;
   }
-.two-columns {
+.two-columns{
   width: 80%;
   min-width: 784px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
-.two-columns_brief{
+.two-columns__brief{
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -107,13 +111,18 @@
   text-align: center;
 }
 .section-subtitle{
-  width: 60%;
+    width: 60%;
     margin: 20px 0 0;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
     text-align: center;
     padding: 0 20%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 .table{
   flex-wrap:wrap;
@@ -152,7 +161,6 @@
 }
 .feynman__title{
   width: 775px;
-  margin-top: 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -166,6 +174,7 @@
   top: 70px;
   text-align: center;
   margin-top: 0;
+  position: relative;
 }
 .feynman__link{
   position: absolute;
@@ -174,7 +183,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  color: black;
+  color: #2f80ed;
   text-decoration: none;
 }
 /* including elements with key-value modifiers */
@@ -194,7 +203,7 @@
  font-weight: bold;
  color: white;
 }
-.subtitle_theme_dark{
+.section-subtitle_theme_dark{
 margin: 20px auto 0;
 width:60%;
 color: white;
@@ -231,6 +240,7 @@ position: relative;
   margin: 20px 0 0;
 }
 .kaufman__triangle{
+  background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -239,6 +249,8 @@ position: relative;
   width: 877px;
   height: 877px;
   z-index: 0;
+  overflow: hidden;
+  padding: 60px;
  }
  .footer{
    background-color: #1F1F1F;
@@ -272,6 +284,7 @@ position: relative;
   margin-bottom: 18px;
   color: #4f4f4f;
   bottom: 0;
+  left: 0;
   position: absolute;
  }
  .footer__column-heading{
