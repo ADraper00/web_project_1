@@ -20,5 +20,5 @@ This project covers Advanced HTML & CSS as well debugging and advanced Git.
 ------
 ###  Languages:
 
-HTML
-CSS
+- HTML
+- CSS
