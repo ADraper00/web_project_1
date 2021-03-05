@@ -1,10 +1,14 @@
 .footer__link {
-    list-style-type: none;
-    margin: 20px 0 16px;
-    padding-left: 0;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-    color: #F2F2F2;
-    text-decoration: none;
-  }  
+  list-style-type: none;
+  margin: 20px 0 16px;
+  padding-left: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #F2F2F2;
+  text-decoration: none;
+}
+  .footer__link:hover {
+  opacity: .6;
+  transition: ease 500ms;
+}

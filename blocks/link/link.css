@@ -4,6 +4,5 @@
 
 .link:hover { 
   opacity: .2;
-  /* animation: rotation 20s linear infinite; */
   transition: 2s linear; 
 }
