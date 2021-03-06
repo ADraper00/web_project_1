@@ -5,7 +5,6 @@
 @import url(./__column-links/footer__column-links.css);
 @import url(./__columns/footer__columns.css);
 @import url(./__social-icon/footer__social-icon.css);
-@import url(./__list-items/footer__list-items.css);
 @import url(./__link/footer__link.css);
 .footer {
     min-height: 350px;
