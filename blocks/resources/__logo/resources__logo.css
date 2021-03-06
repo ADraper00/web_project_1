@@ -1,7 +1,7 @@
-@import url(../__logo/resources__logo_teded.css);
-@import url(../__logo/resources__logo_medium.css);
-@import url(../__logo/resources__logo_dezeen.css);
-@import url(../__logo/resources__logo_goodreads.css);
+@import url(../__logo/resources__logo--teded.css);
+@import url(../__logo/resources__logo--medium.css);
+@import url(../__logo/resources__logo--dezeen.css);
+@import url(../__logo/resources__logo--goodreads.css);
 
 .resources__logo { 
     width: 270px;
