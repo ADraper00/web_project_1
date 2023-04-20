@@ -1,6 +1,7 @@
 #  Practicum by Yandex Bootcamp 
-##  Learning How to Learn
-Web-project-1
+## Learning How to Learn
+## Web-project-1
+### View live project https://adraper00.github.io/web_project_1/ 
 ------
 ###  Description:
 
